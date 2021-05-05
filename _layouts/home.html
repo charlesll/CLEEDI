@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+{% include head.html %}
+
+<body>
+
+    {% include header.html %}
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>{{ page.landing-title }}</h1>
+            </header>
+            <ul class="actions">
+                <li><a href="#two" class="button next scrolly">More information</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Main -->
+    <div id="main">
+
+        <!-- One -->
+        {% include tiles.html %}
+
+        <!-- Two -->
+        <section id="two">
+            <div class="inner">
+                <div class="row">
+                    <div class="6u 12u$(small)">
+                        <header class="major">
+                            <h2>About Us</h2>
+                        </header>
+                        <p> {{ content }} </p>
+                    </div>
+                    <div class="6u$">
+                        <header class="major">
+                            <h2>What's Going On?</h2>
+                        </header>
+                        {% include Twitter_RSESDataScience.html %}
+                    </div>
+                </div>
+                
+                <ul class="actions">
+                    <li><a href="about.html" class="button next">Get Started</a></li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
+
+<!-- {% include Twitter_RSESDataScience.html %} -->
