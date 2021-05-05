@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Resource list
-description: Resources used and developed at RSES
-image: 
+description: Cleedi workshop ressources
+image:
 nav-menu: true
---- 
-	
+---
+
 <section id="main" class="style2">
 	<div class="inner">
 		<header class="major">
@@ -272,7 +272,7 @@ nav-menu: true
 				<td>A small package wrapping the gcvspl.f FORTRAN library.</td>
 				<td>Python</td>
 			</tr>
-			
+
 			<tr>
 				<th colspan="3"><h3>Geochemistry</h3></th>
 			</tr>		
@@ -298,5 +298,3 @@ nav-menu: true
 	  <p> Under Construction </p>
 	</div>
 </section> -->
-
-

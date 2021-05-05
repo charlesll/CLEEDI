@@ -1,17 +1,17 @@
 # Site settings
-title: Research School of Earth Sciences - Data Science Theme
-subtitle: The Australian National University
-longtitle: Research School of Earth Sciences - The Australian National University
-email: malcolm.samridge@anu.edu.au
-description: Webpage of the RSES Data Science Theme
-baseurl: "/rses-datascience.github.io" # the subpath of your site, e.g. /blog
+title: CLEEDI - Earth science workshops
+subtitle: CLEEDI
+longtitle: CLEEDI - Earth science workshops
+email: nobuaki@ipgp.fr
+description: Webpage of the CLEEDI workshops
+baseurl: "/CLEEDI" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-author:
-street_address: Research School of Earth Sciences, The Australian National University
-city: Canberra
-state: ACT
-zip_code: 2601
-country: Australia
+author: CLEEDI team
+street_address: IPGP, 1 rue Jussieu
+city: Paris
+state: Paris
+zip_code: 75005
+country: France
 #phone: (716) 555-5555
 
 # Homepage tiles
@@ -22,13 +22,13 @@ tiles-count: 6
 500px_url:
 facebook_url:
 github_url:
-gitlab_url: 
-googleplus_url: 
-instagram_url: 
-linkedin_url: 
+gitlab_url:
+googleplus_url:
+instagram_url:
+linkedin_url:
 pinterest_url:
 slack_url:
-twitter_url: 
+twitter_url:
 
 # Build settings
 markdown: kramdown
